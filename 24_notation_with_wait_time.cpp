@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 void inputTime(int &hours, int &minutes, char &am_pm);
 void calculateNewTime(int hours, int minutes, int wait_hours, int wait_minutes, int &new_hours, int &new_minutes);
 void determineAmPm(int hours, char &am_pm);

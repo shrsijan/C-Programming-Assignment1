@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function prototypes
+// Function prototype
 void inputTime(int &hours, int &minutes, char &am_pm);
 void calculateNewTime(int hours, int minutes, char am_pm, int wait_hours, int wait_minutes, int &new_hours, int &new_minutes, char &new_am_pm);
 void outputTime12(int hours, int minutes, char am_pm);
